@@ -9,8 +9,10 @@
 }
 
 .nav-item:hover {
+  transform: scale(1.2);
   color: rgb(133, 255, 133);
   cursor: pointer;
+  transition: all ease 0.1s;
 }
 
 .nav-space-between {
