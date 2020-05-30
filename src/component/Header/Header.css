@@ -1,0 +1,30 @@
+.header-container {
+  box-shadow: None !important;
+}
+
+.nav-item {
+  color: #ffffff;
+  flex-grow: 1;
+}
+
+.nav-item:hover {
+  color: rgb(133, 255, 133);
+  cursor: pointer;
+}
+
+.nav-space-between {
+  flex-grow: 3;
+}
+
+.header-primary-toolbar {
+  justify-content: space-around;
+}
+
+.header-secondary-toolbar {
+  justify-content: flex-end;
+}
+
+.sub-nav-item {
+  color: white;
+  transform: translate(-50px, 0%);
+}

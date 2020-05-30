@@ -1,20 +1,31 @@
 import * as React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import { Toolbar, Typography } from '@material-ui/core';
+import './Header.css';
 
 const Header: React.FC = () => {
   return (
     <React.Fragment>
-      <AppBar position="fixed">
-        <Toolbar style={{ justifyContent: 'space-between' }}>
-          <Typography variant="h4">National Health</Typography>
-          <Typography variant="h6">Call 0199999 to book appointment</Typography>
-          <Typography variant="h6">Call 0199999 to book appointment</Typography>
+      <AppBar color="transparent" className="header-container" position="fixed">
+        <Toolbar className="header-secondary-toolbar">
+          <Typography variant="subtitle1" className="sub-nav-item">
+            Call 0199999 to book appointment
+          </Typography>
         </Toolbar>
-        <Toolbar>
-          <Typography variant="h6">Home</Typography>
-          <Typography variant="h6">About</Typography>
-          <Typography variant="h6">Page</Typography>
+        <Toolbar className="header-primary-toolbar">
+          <Typography variant="h4" className="nav-item">
+            National Health
+          </Typography>
+          <div className="nav-space-between" />
+          <Typography variant="h6" className="nav-item">
+            Home
+          </Typography>
+          <Typography variant="h6" className="nav-item">
+            About
+          </Typography>
+          <Typography variant="h6" className="nav-item">
+            Page
+          </Typography>
         </Toolbar>
       </AppBar>
     </React.Fragment>
