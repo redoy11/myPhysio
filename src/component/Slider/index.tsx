@@ -11,14 +11,14 @@ const Slider: React.FC = () => {
   return (
     <Carousel defaultWait={3000}>
       <Slide right={true}>
-        <img src="/myPhysio/img_doc.jpg" style={{ width: '100%', height: '100%' }} />
+        <img src="/myPhysio/img_remedy.jpg" style={{ width: '100%', height: '100%' }} />
         <div style={{ position: 'absolute', top: '50%', left: '50%' }}>
           <h1>Slide 1</h1>
           <p>Slide Description</p>
         </div>
       </Slide>
       <Slide right={true}>
-        <img src="/myPhysio/img_doc.jpg" style={{ width: '100%', height: '100%' }} />
+        <img src="/myPhysio/img_foot.jpg" style={{ width: '100%', height: '100%' }} />
         <div style={{ position: 'absolute', top: '50%', left: '50%' }}>
           <h1>Slide 2</h1>
           <p>Slide Description</p>
