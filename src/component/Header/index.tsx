@@ -13,8 +13,8 @@ const Header: React.FC = () => {
           </Typography>
         </Toolbar>
         <Toolbar className="header-primary-toolbar">
-          <Typography variant="h4" className="nav-item">
-            National Health
+          <Typography variant="h4" className="nav-logo-item">
+            <img src="/myphysio/logo.png" width="120" />
           </Typography>
           <div className="nav-space-between" />
           <Typography variant="h6" className="nav-item">

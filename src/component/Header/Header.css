@@ -5,6 +5,7 @@
 .nav-item {
   color: #ffffff;
   flex-grow: 1;
+  text-align: center;
 }
 
 .nav-item:hover {
@@ -18,6 +19,7 @@
 
 .header-primary-toolbar {
   justify-content: space-around;
+  background: rgb(165, 41, 41, 0.9);
 }
 
 .header-secondary-toolbar {
