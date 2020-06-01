@@ -5,10 +5,10 @@ import './Home.css';
 
 const Home: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <Slider />
-      <Container maxWidth="md">
-        <Paper elevation={5}>
+      <Container className="home-container">
+        <Paper className="home-body" elevation={5}>
           <Grid className="description-container" container={true} justify="center" alignItems="center">
             <Grid className="description-item-container" item={true}>
               <Typography className="description">
@@ -20,9 +20,16 @@ const Home: React.FC = () => {
               </Typography>
             </Grid>
           </Grid>
+          <Grid className="services-section" container={true} justify="center">
+            <Grid className="services-container" item={true}>
+              <Typography variant="h6" className="service-title">
+                Services We provide
+              </Typography>
+            </Grid>
+          </Grid>
         </Paper>
       </Container>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -3,5 +3,11 @@
 }
 
 .description-item-container {
-  margin: 15% !important;
+  margin: 8% !important;
+}
+
+.home-container {
+  position: relative;
+  margin-top: -5%;
+  z-index: 20;
 }
