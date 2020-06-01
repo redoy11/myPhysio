@@ -1,18 +1,25 @@
 import * as React from 'react';
-import { Container, Typography, Paper } from '@material-ui/core';
+import { Container, Typography, Paper, Grid } from '@material-ui/core';
 import Slider from '../Slider';
+import './Home.css';
 
 const Home: React.FC = () => {
   return (
     <React.Fragment>
       <Slider />
-      <Container maxWidth="sm">
-        <Paper elevation={3}>
-          <Typography>
-            This is the paragraph where you can write more details about your product. Keep you user engaged by
-            providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't
-            scroll to get here.
-          </Typography>
+      <Container maxWidth="md">
+        <Paper elevation={5}>
+          <Grid className="description-container" container={true} justify="center" alignItems="center">
+            <Grid className="description-item-container" item={true}>
+              <Typography className="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum, nulla ut molestie porta, nisi
+                dolor convallis sapien, vitae molestie ipsum leo sit amet felis. Praesent sed nisl vitae est maximus
+                interdum vitae sit amet felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam
+                interdum quam eget nisi porttitor dignissim. Aliquam mi ligula, placerat dignissim efficitur sit amet,
+                euismod elementum nulla. Morbi finibus elit quis lorem posuere, sit amet convallis massa commodo.
+              </Typography>
+            </Grid>
+          </Grid>
         </Paper>
       </Container>
     </React.Fragment>
