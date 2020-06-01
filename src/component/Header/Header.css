@@ -21,11 +21,11 @@
 
 .header-primary-toolbar {
   justify-content: space-around;
-  background: rgb(165, 41, 41, 0.9);
 }
 
 .header-secondary-toolbar {
   justify-content: flex-end;
+  min-height: 5px !important;
 }
 
 .sub-nav-item {
