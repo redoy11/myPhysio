@@ -12,3 +12,11 @@
   margin-top: -5%;
   z-index: 20;
 }
+
+.service-title {
+  margin-bottom: 5% !important;
+}
+
+.services-container {
+  text-align: center;
+}

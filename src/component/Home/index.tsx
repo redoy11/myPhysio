@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Container, Typography, Paper, Grid } from '@material-ui/core';
 import Slider from '../Slider';
 import './Home.css';
+import Services from '../Services';
 
 const Home: React.FC = () => {
   return (
@@ -21,10 +22,11 @@ const Home: React.FC = () => {
             </Grid>
           </Grid>
           <Grid className="services-section" container={true} justify="center">
-            <Grid className="services-container" item={true}>
+            <Grid className="services-container" xs={12} item={true}>
               <Typography variant="h6" className="service-title">
                 Services We provide
               </Typography>
+              <Services />
             </Grid>
           </Grid>
         </Paper>
