@@ -1,9 +1,10 @@
-.description-container {
+.description-section {
   min-height: 200px;
 }
 
-.description-item-container {
+.description-container {
   margin: 8% !important;
+  text-align: center;
 }
 
 .home-container {

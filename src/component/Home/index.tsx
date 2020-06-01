@@ -9,9 +9,9 @@ const Home: React.FC = () => {
       <Slider />
       <Container className="home-container">
         <Paper className="home-body" elevation={5}>
-          <Grid className="description-container" container={true} justify="center" alignItems="center">
-            <Grid className="description-item-container" item={true}>
-              <Typography className="description">
+          <Grid className="description-section" container={true} justify="center" alignItems="center">
+            <Grid className="description-container" item={true}>
+              <Typography color="textSecondary" className="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum, nulla ut molestie porta, nisi
                 dolor convallis sapien, vitae molestie ipsum leo sit amet felis. Praesent sed nisl vitae est maximus
                 interdum vitae sit amet felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam
