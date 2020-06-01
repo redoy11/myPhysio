@@ -2,10 +2,9 @@ import React from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Header from '../component/Header';
-import Slider from '../component/Slider';
+import Home from '../component/Home';
 
 const App: React.FC = () => {
-  const Home = <Slider />;
   const About = <p> About </p>;
   return (
     <>
@@ -15,7 +14,7 @@ const App: React.FC = () => {
           {About}
         </Route>
         <Route path="/" exact={true}>
-          {Home}
+          <Home />
         </Route>
       </Switch>
     </>
