@@ -1,17 +1,18 @@
 import * as React from 'react';
-import { Grid, Paper } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
+import ServiceCard from '../ServiceCard';
 
 const Services: React.FC = () => {
   return (
     <Grid container={true} justify="space-evenly">
-      <Grid item xs={4}>
-        <Paper>xs=3</Paper>
+      <Grid item md={4} xs={12}>
+        <ServiceCard />
       </Grid>
-      <Grid item xs={4}>
-        <Paper>xs=3</Paper>
+      <Grid item md={4} xs={12}>
+        <ServiceCard />
       </Grid>
-      <Grid item xs={4}>
-        <Paper>xs=3</Paper>
+      <Grid item md={4} xs={12}>
+        <ServiceCard />
       </Grid>
     </Grid>
   );
