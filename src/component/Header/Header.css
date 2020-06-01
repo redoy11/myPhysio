@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+.scroll-nav-item {
+  color: #015005;
+}
+
 .nav-item:hover {
   transform: scale(1.2);
   color: rgb(133, 255, 133);

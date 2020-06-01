@@ -6,6 +6,7 @@ import Home from '../component/Home';
 
 const App: React.FC = () => {
   const About = <p> About </p>;
+
   return (
     <>
       <Header />
