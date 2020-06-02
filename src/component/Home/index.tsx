@@ -31,22 +31,25 @@ const Home: React.FC = () => {
           </Grid>
           <Grid className="story-section" container={true} justify="center" alignItems="center">
             <Grid className="story-section-title" xs={12} item={true}>
-              <Typography color="textSecondary" variant="h4">
-                Latest Story
-              </Typography>
+              <Paper square={true}>
+                <Typography className="story-title-margin" color="primary" variant="h4">
+                  Latest Story
+                </Typography>
+              </Paper>
+              <div className="story-divider" />
             </Grid>
-            <Grid className="story-description-container" xs={6} item={true}>
-              <Typography variant="h3" className="story-title">
+            <Grid className="story-description-container" md={6} xs={12} item={true}>
+              <Typography variant="h3" color="inherit" className="story-title">
                 Fight against Covid
               </Typography>
-              <Typography variant="h6" className="story-title">
-                Services We provide
+              <Typography variant="body2" color="inherit" className="story-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum, nulla ut molestie porta, nisi
+                dolor convallis sapien, vitae molestie ipsum leo sit amet felis. Praesent sed nisl vitae est maximus
+                interdum vitae sit amet felis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
               </Typography>
             </Grid>
-            <Grid className="story-img-container" xs={6} item={true}>
-              <Typography variant="h6" className="story-title">
-                Services We provide
-              </Typography>
+            <Grid className="story-img-container" md={6} xs={12} item={true}>
+              <img src="/myphysio/img_xray.jpg" className="story-img" />
             </Grid>
           </Grid>
         </Paper>
