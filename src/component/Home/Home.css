@@ -20,3 +20,13 @@
 .services-container {
   text-align: center;
 }
+
+.story-section {
+  min-height: 500px;
+  background-image: url(/myphysio/img_doc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 100vw rgba(0,255,0,0.8);
+  text-align: center;
+}

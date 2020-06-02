@@ -29,6 +29,26 @@ const Home: React.FC = () => {
               <Services />
             </Grid>
           </Grid>
+          <Grid className="story-section" container={true} justify="center" alignItems="center">
+            <Grid className="story-section-title" xs={12} item={true}>
+              <Typography color="textSecondary" variant="h4">
+                Latest Story
+              </Typography>
+            </Grid>
+            <Grid className="story-description-container" xs={6} item={true}>
+              <Typography variant="h3" className="story-title">
+                Fight against Covid
+              </Typography>
+              <Typography variant="h6" className="story-title">
+                Services We provide
+              </Typography>
+            </Grid>
+            <Grid className="story-img-container" xs={6} item={true}>
+              <Typography variant="h6" className="story-title">
+                Services We provide
+              </Typography>
+            </Grid>
+          </Grid>
         </Paper>
       </Container>
     </>
