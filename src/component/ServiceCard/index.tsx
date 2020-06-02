@@ -1,18 +1,25 @@
 import * as React from 'react';
-import { Card, CardContent, Typography } from '@material-ui/core';
+import { Card, CardContent, Typography, Icon } from '@material-ui/core';
 
-const ServiceCard: React.FC = () => {
+interface ServiceCardProps {
+  iconName: string;
+  title: string;
+  body: string;
+}
+
+const ServiceCard: React.FC<ServiceCardProps> = (props: ServiceCardProps) => {
+  const { iconName, title, body } = props;
   return (
-    <Card>
+    <Card className="service-card">
       <CardContent>
-        <Typography color="textSecondary" gutterBottom>
-          Word of the Day
+        <Icon className="service-icon" color="primary" fontSize="large">
+          {iconName}
+        </Icon>
+        <Typography className="service-title" variant="h5">
+          <strong>{title}</strong>
         </Typography>
-        <Typography variant="h5">adjective</Typography>
-        <Typography variant="body2" component="p">
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
+        <Typography className="service-body" variant="body2" component="p">
+          {body}
         </Typography>
       </CardContent>
     </Card>
