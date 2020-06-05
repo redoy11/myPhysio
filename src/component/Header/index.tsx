@@ -1,6 +1,6 @@
 import * as React from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import { Toolbar, Typography, useScrollTrigger } from '@material-ui/core';
+import { Toolbar, Typography, useScrollTrigger, Icon } from '@material-ui/core';
 import './Header.css';
 
 const Header: React.FC = () => {
@@ -19,8 +19,14 @@ const Header: React.FC = () => {
       >
         {!trigger && (
           <Toolbar className="header-secondary-toolbar">
-            <Typography variant="subtitle1" className="sub-nav-item">
-              Call 0199999 to book appointment
+            <Typography variant="subtitle1" component="div">
+              For service,
+            </Typography>
+            <>
+              <Icon style={{ padding: '0px 10px' }}>phone</Icon>
+            </>
+            <Typography variant="subtitle1" component="div">
+              01999999999
             </Typography>
           </Toolbar>
         )}

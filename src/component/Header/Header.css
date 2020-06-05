@@ -29,8 +29,12 @@
 }
 
 .header-secondary-toolbar {
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   min-height: 5px !important;
+  transform: translateX(-6%);
+  color: white;
 }
 
 .sub-nav-item {
