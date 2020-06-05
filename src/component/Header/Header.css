@@ -13,8 +13,8 @@
 }
 
 .nav-item:hover {
-  transform: scale(1.2);
-  color: rgb(133, 255, 133);
+  transform: scale(1.05);
+  color: #7FCD46;
   cursor: pointer;
   transition: all ease 0.1s;
 }
