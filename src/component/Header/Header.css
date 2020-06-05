@@ -25,6 +25,7 @@
 
 .header-primary-toolbar {
   justify-content: space-around;
+  max-height: 45px;
 }
 
 .header-secondary-toolbar {
