@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4285afae1ec49fe78928c60c9f9647a0",
+    "revision": "996c28972f7b840467be6e73221f0cf8",
     "url": "/myPhysio/index.html"
   },
   {
-    "revision": "8f0758c592660b92369a",
+    "revision": "f2e2e208e1387168699d",
     "url": "/myPhysio/static/css/main.1dad7088.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPhysio/static/js/2.3ddc5c51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8f0758c592660b92369a",
-    "url": "/myPhysio/static/js/main.ae72ce94.chunk.js"
+    "revision": "f2e2e208e1387168699d",
+    "url": "/myPhysio/static/js/main.4926ab8c.chunk.js"
   },
   {
     "revision": "6e2d7d2235ff75bc7e5c",
