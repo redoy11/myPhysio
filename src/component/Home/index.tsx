@@ -49,7 +49,7 @@ const Home: React.FC = () => {
               </Typography>
             </Grid>
             <Grid className="story-img-container" md={6} xs={12} item={true}>
-              <img src="/myphysio/img_xray.jpg" className="story-img" />
+              <img src="/myPhysio/img_xray.jpg" className="story-img" />
             </Grid>
           </Grid>
         </Paper>

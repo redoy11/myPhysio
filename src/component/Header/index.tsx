@@ -32,7 +32,7 @@ const Header: React.FC = () => {
         )}
         <Toolbar className="header-primary-toolbar">
           <Typography variant="h4" className="nav-logo-item">
-            <img src="/myphysio/logo.png" width="120" />
+            <img src="/myPhysio/logo.png" width="120" />
           </Typography>
           <div className="nav-space-between" />
           <Typography variant="h6" className={trigger ? 'nav-item scroll-nav-item' : 'nav-item'}>
