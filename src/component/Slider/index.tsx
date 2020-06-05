@@ -3,22 +3,28 @@ import './Slider.css';
 
 const Slider: React.FC = () => {
   return (
-    <div className="Slider-container">
-      <div className="Slider-slide top">
-        <img src="/myPhysio/img_remedy.jpg" style={{ width: '100%', height: '100%' }} />
-        <div style={{ position: 'absolute', top: '50%', left: '50%' }}>
-          <h1>Slide 1</h1>
-          <p>Slide Description</p>
+    <React.Fragment>
+      <div className="Slider-container">
+        <div className="Slider-slide top">
+          <div className="Slider-slide-content">
+            <h1>Slide 1</h1>
+            <p>
+              Slide Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum, nulla ut
+              molestie porta, nisi dolor convallis sapien, vitae molestie ipsum leo sit amet felis.
+            </p>
+          </div>
+        </div>
+        <div className="Slider-slide bottom">
+          <div className="Slider-slide-content">
+            <h1>Slide 2</h1>
+            <p>
+              Slide Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum, nulla ut
+              molestie porta, nisi dolor convallis sapien, vitae molestie ipsum leo sit amet felis.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="Slider-slide bottom">
-        <img src="/myPhysio/img_foot.jpg" style={{ width: '100%', height: '100%' }} />
-        <div style={{ position: 'absolute', top: '50%', left: '50%' }}>
-          <h1>Slide 2</h1>
-          <p>Slide Description</p>
-        </div>
-      </div>
-    </div>
+    </React.Fragment>
   );
 };
 
