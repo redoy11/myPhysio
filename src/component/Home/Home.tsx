@@ -2,9 +2,10 @@ import * as React from 'react';
 import './Home.scss';
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Header from './Header/Header';
+import HomeSection from './Sections/HomeSection/HomeSection';
 
 const HOME_SECTIONS = ['home', 'about', 'services', 'review', 'news', 'contact'];
-const HOME_SECTION_COMPONENTS: React.Component[] = [];
+const HOME_SECTION_COMPONENTS: any[] = [<HomeSection key="home-section" />];
 
 const Home: React.FC = () => {
   return (
