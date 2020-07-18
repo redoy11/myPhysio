@@ -3,8 +3,12 @@
     min-height: 100vh;
   }
 
-  &-container section:first-of-type {
+  &-container  #section-home {
     padding-top: 100px;
-    min-height: 80vh;
+    min-height: 90vh;
+    background-image: url("/myPhysio/home.svg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
   }
 }
