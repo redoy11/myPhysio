@@ -1,0 +1,31 @@
+.Header {
+  &-logo {
+    color: #004D40 !important;
+  }
+
+  &-container {
+    background-color: white;
+
+    & .nav-item {
+      margin: 0px 12px !important;
+    }
+
+    &.navbar {
+      box-shadow: none;
+      padding-top: 30px !important;
+    }
+
+    &.navbar.top-nav-collapse {
+      padding-top: 5px !important;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    }
+
+    & a:hover {
+      color: #00897B;
+    }
+
+    & a {
+      color: #4f4f4f;
+    }
+  }
+}

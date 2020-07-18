@@ -1,0 +1,10 @@
+.Home {
+  &-container section{
+    min-height: 100vh;
+  }
+
+  &-container section:first-of-type {
+    padding-top: 100px;
+    min-height: 80vh;
+  }
+}
