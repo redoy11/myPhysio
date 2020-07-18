@@ -3,7 +3,7 @@ import './Home.scss';
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Header from './Header/Header';
 
-const HOME_SECTION_COMPONENTS = ['Home', 'ME', 'SERVICES', 'Review', 'BlOG', 'Contact'];
+const HOME_SECTION_COMPONENTS = ['home', 'about', 'services', 'review', 'news', 'contact'];
 
 const Home: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         {HOME_SECTION_COMPONENTS.map((sectComp, index) => (
           <MDBRow key={`home-section-` + index}>
             <MDBCol size="12">
-              <section>{sectComp}</section>
+              <section id={'section-' + sectComp}>{sectComp}</section>
             </MDBCol>
           </MDBRow>
         ))}

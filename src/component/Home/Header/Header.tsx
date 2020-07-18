@@ -10,6 +10,15 @@ import {
   MDBIcon,
 } from 'mdbreact';
 import './Header.scss';
+import Scrollspy from 'react-scrollspy';
+
+const NAV_ITEMS = [
+  { label: 'Home', value: 'section-home' },
+  { label: 'About', value: 'section-about' },
+  { label: 'Services', value: 'section-services' },
+  { label: 'News', value: 'section-news' },
+  { label: 'Contact', value: 'section-contact' },
+];
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
@@ -24,23 +33,21 @@ const Header: React.FC = () => {
           <i className="fa fa-bars" aria-hidden="true"></i>
         </MDBNavbarToggler>
         <MDBCollapse isOpen={isOpen} navbar>
-          <MDBNavbarNav left>
-            <MDBNavItem active>
-              <MDBNavLink to="#">Home</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="#">About</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="#">Services</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="#">News</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="#">Contact</MDBNavLink>
-            </MDBNavItem>
-          </MDBNavbarNav>
+          <Scrollspy
+            componentTag={MDBNavItem}
+            items={NAV_ITEMS.map((navItem) => navItem.value)}
+            currentClassName="Header-nav-item-active"
+            className="navbar-nav mr-auto"
+          >
+            {NAV_ITEMS.map((navItem, index) => (
+              <MDBNavItem key={'nav-item-' + index}>
+                <a className="nav-link Ripple-parent active" href={'#' + navItem.value}>
+                  {navItem.label}
+                </a>
+              </MDBNavItem>
+            ))}
+          </Scrollspy>
+
           <MDBNavbarNav right>
             <MDBNavItem>
               <MDBNavLink to="#">
