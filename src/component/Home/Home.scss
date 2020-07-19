@@ -5,10 +5,14 @@
 
   &-container  #section-home {
     padding-top: 100px;
-    min-height: 90vh;
+    min-height: 98vh;
     background-image: url("/myPhysio/home.svg");
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: 15px 15px;
+  }
+
+  &-section-col-1 {
+    background-color: #E0F2F1;
   }
 }
