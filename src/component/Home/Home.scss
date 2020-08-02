@@ -16,8 +16,21 @@
     background-color: #E0F2F1;
   }
 
+  &-section-col-4 {
+    background-color: gray;
+    color: white;
+  }
+
   &-container  #section-services {
-    border-bottom: 0.1px solid #cfcfcf;
-    padding-bottom: 50px;
+    border-bottom: 0.1px solid rgb(205, 218, 216);
+    padding-bottom: 40px;
+  }
+
+  &-container  #section-news {
+    padding-bottom: 55px;
+  }
+
+  &-container #section-contact {
+    padding: 80px 5% 30px 5%;
   }
 }
