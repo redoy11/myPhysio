@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/myPhysio/static/css/main.1dad7088.chunk.css",
-    "main.js": "/myPhysio/static/js/main.ac1fa3c0.chunk.js",
-    "main.js.map": "/myPhysio/static/js/main.ac1fa3c0.chunk.js.map",
+    "main.css": "/myPhysio/static/css/main.8ec271d8.chunk.css",
+    "main.js": "/myPhysio/static/js/main.24450035.chunk.js",
+    "main.js.map": "/myPhysio/static/js/main.24450035.chunk.js.map",
     "runtime-main.js": "/myPhysio/static/js/runtime-main.6125f780.js",
     "runtime-main.js.map": "/myPhysio/static/js/runtime-main.6125f780.js.map",
-    "static/js/2.3ddc5c51.chunk.js": "/myPhysio/static/js/2.3ddc5c51.chunk.js",
-    "static/js/2.3ddc5c51.chunk.js.map": "/myPhysio/static/js/2.3ddc5c51.chunk.js.map",
+    "static/css/2.31de3d32.chunk.css": "/myPhysio/static/css/2.31de3d32.chunk.css",
+    "static/js/2.af08b092.chunk.js": "/myPhysio/static/js/2.af08b092.chunk.js",
+    "static/js/2.af08b092.chunk.js.map": "/myPhysio/static/js/2.af08b092.chunk.js.map",
     "index.html": "/myPhysio/index.html",
-    "precache-manifest.6d4766d5e6ea5b89e4b67339d14b7bce.js": "/myPhysio/precache-manifest.6d4766d5e6ea5b89e4b67339d14b7bce.js",
+    "precache-manifest.0b715b654517ad77fc5202288fd9c2b6.js": "/myPhysio/precache-manifest.0b715b654517ad77fc5202288fd9c2b6.js",
     "service-worker.js": "/myPhysio/service-worker.js",
-    "static/css/main.1dad7088.chunk.css.map": "/myPhysio/static/css/main.1dad7088.chunk.css.map",
-    "static/js/2.3ddc5c51.chunk.js.LICENSE.txt": "/myPhysio/static/js/2.3ddc5c51.chunk.js.LICENSE.txt"
+    "static/css/2.31de3d32.chunk.css.map": "/myPhysio/static/css/2.31de3d32.chunk.css.map",
+    "static/css/main.8ec271d8.chunk.css.map": "/myPhysio/static/css/main.8ec271d8.chunk.css.map",
+    "static/js/2.af08b092.chunk.js.LICENSE.txt": "/myPhysio/static/js/2.af08b092.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/myPhysio/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/myPhysio/static/media/fa-solid-900.ee09ad75.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.6125f780.js",
-    "static/js/2.3ddc5c51.chunk.js",
-    "static/css/main.1dad7088.chunk.css",
-    "static/js/main.ac1fa3c0.chunk.js"
+    "static/css/2.31de3d32.chunk.css",
+    "static/js/2.af08b092.chunk.js",
+    "static/css/main.8ec271d8.chunk.css",
+    "static/js/main.24450035.chunk.js"
   ]
 }
