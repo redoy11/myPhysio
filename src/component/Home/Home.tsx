@@ -5,13 +5,16 @@ import Header from './Header/Header';
 import HomeSection from './Sections/HomeSection/HomeSection';
 import AboutSection from './Sections/AboutSection/AboutSection';
 import ServiceSection from './Sections/ServiceSection/ServiceSection';
+import NewsSection from './Sections/NewsSection/NewsSection';
 
-const HOME_SECTIONS = ['home', 'about', 'services', 'review', 'news', 'contact'];
+const HOME_SECTIONS = ['home', 'about', 'services', /*'review',*/ 'news', 'contact'];
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const HOME_SECTION_COMPONENTS: any[] = [
   <HomeSection key="home-section" />,
   <AboutSection key="about-section" />,
   <ServiceSection key="service-section" />,
+  // <span key="review-section"></span>,
+  <NewsSection key="news-section" />,
 ];
 
 const Home: React.FC = () => {
