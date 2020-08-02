@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './NewsSection.scss';
-import { MDBRow, MDBCol, MDBContainer } from 'mdbreact';
+import { MDBRow, MDBCol, MDBContainer, MDBIcon } from 'mdbreact';
 import NewsCard from './NewsCard/NewsCard';
 import { NEWS_FIXTURES } from './NewsFixtures';
 
@@ -11,6 +11,13 @@ const NewsSection: React.FC = () => {
         <h2>
           <strong>Read our latest tips and news.</strong>
         </h2>
+        <a href="#">
+          <h6>
+            <strong>
+              Visit our blog for more. <MDBIcon fas icon="arrow-right" />
+            </strong>
+          </h6>
+        </a>
       </div>
       <div className="NewsSection-body">
         <MDBContainer>
