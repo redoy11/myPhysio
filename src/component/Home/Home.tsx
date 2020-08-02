@@ -4,9 +4,15 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Header from './Header/Header';
 import HomeSection from './Sections/HomeSection/HomeSection';
 import AboutSection from './Sections/AboutSection/AboutSection';
+import ServiceSection from './Sections/ServiceSection/ServiceSection';
 
 const HOME_SECTIONS = ['home', 'about', 'services', 'review', 'news', 'contact'];
-const HOME_SECTION_COMPONENTS: any[] = [<HomeSection key="home-section" />, <AboutSection key="about-section" />];
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const HOME_SECTION_COMPONENTS: any[] = [
+  <HomeSection key="home-section" />,
+  <AboutSection key="about-section" />,
+  <ServiceSection key="service-section" />,
+];
 
 const Home: React.FC = () => {
   return (
