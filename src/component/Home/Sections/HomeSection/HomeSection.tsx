@@ -6,8 +6,8 @@ const HomeSection: React.FC = () => {
   return (
     <div className="HomeSection-container">
       <h3>
-        Looking for the <br />
         <strong>
+          Looking for the <br />
           <span style={{ color: '#2bbbad' }}>Best</span> <br />{' '}
           <h1>
             <strong>Physiotherapy</strong>,{' '}
