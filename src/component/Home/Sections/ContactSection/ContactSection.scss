@@ -1,0 +1,12 @@
+.ContactSection {
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 480px;
+  }
+}
+
+.theme-color {
+  color: rgb(196, 245, 238);
+}
